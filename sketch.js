@@ -2,9 +2,10 @@ let player = [];
 let xPos;
 let dir;
 
+
 function preload() {
-  player[0] = loadImage('data/leftmonster.png');
-  player[1] = loadImage('data/rightmonster.png');
+  player[0] = loadImage('data/leftmonster.PNG');
+  player[1] = loadImage('data/rightmonster.PNG');
 }
 
 function windowResized() {
